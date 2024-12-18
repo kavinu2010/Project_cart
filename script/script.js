@@ -37,7 +37,7 @@ function updateProductUI(obj) {
         <div class="right-c">
           <div class="right-c-child">
             <h3>${obj.title} </h3>
-            <p>${obj.price}</p>
+            <p>$${obj.price}</p>
           </div>
           <div class="right-c-child">
             <p>
