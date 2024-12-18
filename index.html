@@ -20,7 +20,7 @@
       </div>
       <div class="navChild">
         <div class="navItems-R">
-          <img src="images/cart.jpeg" alt="" class="dp-i" />
+          <img src="images/cart.jpeg" alt="" class="dp-i" id="cart-i" />
           <p id="count">0</p>
         </div>
         <div class="navItems-R">
@@ -29,13 +29,19 @@
       </div>
     </div>
 
-    <div class="header" id="header">
-      <h1>Product cart</h1>
-      <h2>Welcome to the world of online shopping</h2>
+    <div class="productUi" id="productUi">
+      <div class="header" id="header">
+        <h1>Product cart</h1>
+        <h2>Welcome to the world of online shopping</h2>
+      </div>
+      <h1 style="text-align: center; margin-top: 20px">Products</h1>
+      <div class="cardContainer" id="cardContainer"></div>
     </div>
 
-    <div class="cardContainer" id="cardContainer"></div>
-
-    <script src="script/script.js"></script>
+    <div class="myCartUi hide" id="myCartUi">
+      <h1 style="text-align: center">My Cart</h1>
+      <div class="myCartContainer" id="myCartContainer"></div>
+    </div>
   </body>
+  <script src="script/script.js"></script>
 </html>
