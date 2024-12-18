@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navDiv {
+  box-shadow: 0 5px 5px rgb(1, 1, 1, 0.5), 0 5px 5px rgb(1, 1, 1, 0.5);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  justify-content: space-between;
+}
+.navChild {
+  display: flex;
+}
+
+.navUL {
+  display: flex;
+  align-items: center;
+}
+.navItems {
+  list-style: none;
+  margin-left: 20px;
+}
+.navItems > a {
+  text-decoration: none;
+  color: black;
+}
+
+.dp-i {
+  height: 30px;
+  margin: 0 20px 0 20px;
+}
+
+#dp-i {
+  background-color: white;
+  border-radius: 50%;
+}
+#count {
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.header {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(244, 78, 78);
+}
+.header > h1 {
+  padding: 10px;
+}
+.header::before {
+  content: "";
+  background-image: url("/images/beauty.jpeg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardContainer {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgb(1, 1, 1, 0.5), 0 10px 20px rgb(1, 1, 1, 0.5);
+}
+.img-c {
+  height: 200px;
+}
+
+.right-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.btn {
+  background-color: blue;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
